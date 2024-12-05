@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Selection</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>Your Selected Items</h1>
+    <ul>
+        {% for item in selected_items %}
+        <li>{{ item }}</li>
+        {% endfor %}
+    </ul>
+    <a href="/menu">Back to Menu</a>
+    <a href="/">Back to Home</a>
+</body>
+</html>
+
