@@ -16,6 +16,7 @@ def menu():
         {"name": "Tandoori Roti", "price": "$2.99"},
         {"name": "Veg Manchurian", "price": "$10.99"},
         {"name": "Gulab Jamun", "price": "$4.99"},
+        {"name": "rabdi", "price": "$3.99"},
     ]
     
     if request.method == 'POST':
